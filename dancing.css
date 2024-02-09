@@ -1,0 +1,113 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+
+  @keyframes fade-in {
+    0%{
+        opacity: 0.10;
+        transform: translateX(50px);
+    }
+
+    25%{
+        opacity: 0.25;
+        transform: translateY(50px);
+    }
+
+    50%{
+      opacity: 0.75;
+      transform: translateY(-50px);
+    }
+
+    100%{
+      opacity: 1;
+      transform: translate(0px);
+    }
+}
+
+.body{
+    background-color:goldenrod;
+    display: flex;
+    
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: 500px;
+    border: 1px solid black ;
+    margin-top: 150px;
+    width: 400px;
+    height: 504px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px black;
+    animation: fade-in 10s;
+    
+}
+
+.img{
+  margin-left: 34px;
+  margin-right: 34px;
+  margin-top: 34px;
+  border-radius: 7px;
+  animation: fade-in 20s;
+}
+
+.para{
+   margin-left: 38px;
+}
+
+.study{
+   border: 1px;
+   width: 90px;
+   border-radius: 3px;
+   background-color: goldenrod;
+}
+
+.str{
+    margin-left: 10px;
+    font-family: sans-serif;
+    letter-spacing: 0.4px;
+    font-weight: 700;
+}
+
+.pub{
+   font-family: sans-serif;
+   font-weight: 400;
+}
+
+.head{
+  font-family: protest riot;
+  font-weight: 500;
+  animation: fade-in 22s;
+}
+
+.text{
+   color: lightslategray;
+   letter-spacing: 0.7px;
+   font-family: sans-serif;
+  
+}
+
+.names{
+  display: flex;
+  margin-left: 38px;
+  flex-direction: row;
+}
+
+.link{
+   width: 30px;
+   height: 30px;
+   animation: fade-in 25s;
+   
+}
+
+.name{
+  margin-left: 5px;
+  margin-bottom: auto;
+  margin-top: auto;
+  font-family: sans-serif;
+  font-weight: 600;
+  animation: fade-in 25s;
+}
